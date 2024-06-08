@@ -1,0 +1,19 @@
+.container2{
+    margin-left: 25%;
+    background: url(bg2.png);
+}
+
+input:invalid,
+input:required:invalid{
+    border: none;
+    outline: 2px solid red;
+    border-radius: 2px;
+}
+
+input:valid,
+input:required{
+    border: 1px solid black;
+    outline: inherit;
+    border-radius: inherit;
+
+}
